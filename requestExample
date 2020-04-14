@@ -1,0 +1,101 @@
+#fake online restapi - jsonplaceholder.typicode.com
+import requests
+import json
+import webbrowser
+from pprint import pprint
+
+# print version of request library
+print(requests.__version__)
+
+# make get request
+resp= requests.get('http://jsonplaceholder.typicode.com/todos/1')
+print(type(resp))
+
+#get status code
+print(resp.status_code)
+
+#headers format
+print(type(resp.headers))
+
+# print headers
+pprint(resp.headers)
+
+#get data properties of responce
+print(resp.text)
+
+#get data properties as a json
+pprint(json.loads(resp.text))
+
+
+#try with wikipedia search
+wikipedia_search_url = 'http://en.wikipedia.org/wiki/Special:Search'
+
+# open wikipedia in browser
+#webbrowser.open(wikipedia_search_url)
+
+#make search request programatically
+query_params = {'search':'request'}
+resp = requests.get(url=wikipedia_search_url,params=query_params)
+
+#print response
+print(resp)
+
+# the search term automatically redirect us to first result so get that page
+print(resp.url)
+
+# now we make a post request
+post_data = {
+    "title":"some_title",
+    "body":"some_body",
+    "userId":2
+}
+
+# in request library we can post witthout encoding our data
+resp = requests.post('http://jsonplaceholder.typicode.com/posts',data=post_data)
+print(resp)
+print(json.loads(resp.text))
+
+
+# handle redirects with requests library
+
+resp = requests.get('http://httpbin.org/absolute-redirect/5')
+#print intermediate request data
+print(resp.history) #status code 302 means redirects
+
+#in the final resp we get 200 status code
+print(resp.status_code)
+print(resp.url)
+
+#make function or catch intermediate results
+def print_response_history(resp):
+    if resp.history:
+        print("History : ")
+        for r in resp.history:
+            print(r.status_code,r.url)
+        print("Finally")
+        print(resp.status_code,resp.url)
+    else:
+        print("request was not redirected")
+
+
+print_response_history(resp)
+
+# test another link redirects
+resp = requests.get('http://httpbin.org/redirect-to?url=http://yahoo.com')
+print_response_history(resp)
+
+# when we want to disable redirects
+#resp = requests.get('http://httpbin.org/redirect-to?url=http://yahoo.com', allow-redirects=False)
+#print_response_history(resp)
+
+#set timeout
+resp = requests.get('http://google.com',timeout=0.01)
+
+
+
+
+
+
+
+
+
