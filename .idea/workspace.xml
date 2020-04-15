@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="45950bd7-b2c1-468a-838b-f0e42093ea60" name="Default Changelist" comment="" />
+    <list default="true" id="45950bd7-b2c1-468a-838b-f0e42093ea60" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BeautifulSoup2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BeautifulSoupExample.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FiltersWithBeautifulSoup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +20,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1aXCLS1LyBz341PzOXM4TSp4Krw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -32,7 +44,29 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Python.requestExample">
+  <component name="RunManager" selected="Python.BeautifulSoupExample">
+    <configuration name="BeautifulSoupExample" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pluralsightWebscrapping" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BeautifulSoupExample.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="httplib2" type="PythonConfigurationType" factoryName="Python">
       <module name="pluralsightWebscrapping" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -101,8 +135,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.requestExample" />
+        <item itemvalue="Python.BeautifulSoupExample" />
         <item itemvalue="Python.urllibExample" />
+        <item itemvalue="Python.requestExample" />
       </list>
     </recent_temporary>
   </component>
@@ -120,7 +155,8 @@
       <workItem from="1586875155053" duration="1661000" />
       <workItem from="1586877105146" duration="991000" />
       <workItem from="1586884714207" duration="143000" />
-      <workItem from="1586887694778" duration="3715000" />
+      <workItem from="1586887694778" duration="3988000" />
+      <workItem from="1586916501399" duration="6090000" />
     </task>
     <servers />
   </component>
@@ -144,30 +180,50 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1586884820988" />
-    <state width="1286" height="277" key="GridCell.Tab.0.bottom" timestamp="1586891475075">
+    <state width="769" height="198" key="GridCell.Tab.0.bottom" timestamp="1586966548698">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1286" height="277" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1586891475075" />
-    <state width="1286" height="277" key="GridCell.Tab.0.center" timestamp="1586891475075">
+    <state width="769" height="198" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1586966548698" />
+    <state width="769" height="198" key="GridCell.Tab.0.center" timestamp="1586966548697">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1286" height="277" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1586891475075" />
-    <state width="1286" height="277" key="GridCell.Tab.0.left" timestamp="1586891475075">
+    <state width="769" height="198" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1586966548697" />
+    <state width="769" height="198" key="GridCell.Tab.0.left" timestamp="1586966548697">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1286" height="277" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1586891475075" />
-    <state width="1286" height="277" key="GridCell.Tab.0.right" timestamp="1586891475075">
+    <state width="769" height="198" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1586966548697" />
+    <state width="769" height="198" key="GridCell.Tab.0.right" timestamp="1586966548698">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1286" height="277" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1586891475075" />
+    <state width="769" height="198" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1586966548698" />
+    <state width="769" height="198" key="GridCell.Tab.1.bottom" timestamp="1586966548698">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="769" height="198" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1586966548698" />
+    <state width="769" height="198" key="GridCell.Tab.1.center" timestamp="1586966548698">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="769" height="198" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1586966548698" />
+    <state width="769" height="198" key="GridCell.Tab.1.left" timestamp="1586966548698">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="769" height="198" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1586966548698" />
+    <state width="769" height="198" key="GridCell.Tab.1.right" timestamp="1586966548698">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="769" height="198" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1586966548698" />
     <state x="86" y="23" key="SettingsEditor" timestamp="1586887802722">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="86" y="23" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1586887802722" />
-    <state x="379" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1586884714581">
+    <state x="379" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1586959928639">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="379" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1586884714581" />
+    <state x="379" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1586959928639" />
+    <state x="705" y="0" width="661" height="738" key="find.popup" timestamp="1586965913009">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="705" y="0" width="661" height="738" key="find.popup/0.0.1366.738@0.0.1366.738" timestamp="1586965913009" />
     <state x="337" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1586890603589">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -175,7 +231,8 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/pluralsightWebscrapping$requestExample.coverage" NAME="requestExample Coverage Results" MODIFIED="1586891475064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/pluralsightWebscrapping$urllibExample.coverage" NAME="urllibExample Coverage Results" MODIFIED="1586888875209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pluralsightWebscrapping$urllibExample.coverage" NAME="urllibExample Coverage Results" MODIFIED="1586965103635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pluralsightWebscrapping$httplib2.coverage" NAME="httplib2 Coverage Results" MODIFIED="1586888069484" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pluralsightWebscrapping$BeautifulSoupExample.coverage" NAME="BeautifulSoupExample Coverage Results" MODIFIED="1586966548680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
