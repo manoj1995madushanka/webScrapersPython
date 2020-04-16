@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45950bd7-b2c1-468a-838b-f0e42093ea60" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/getLinksBeautifulsoup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SoupStrainerToParsePartsOfDocument.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -154,7 +154,7 @@
       <workItem from="1586884714207" duration="143000" />
       <workItem from="1586887694778" duration="3988000" />
       <workItem from="1586916501399" duration="6090000" />
-      <workItem from="1587002547653" duration="2048000" />
+      <workItem from="1587002547653" duration="5826000" />
     </task>
     <servers />
   </component>
